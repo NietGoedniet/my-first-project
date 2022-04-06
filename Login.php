@@ -1,4 +1,5 @@
 <?php require_once("Includes/db.php"); ?>
+<?php require_once("Includes/db_mysql.php"); ?>
 <?php require_once("Includes/Function.php"); ?>
 <?php require_once("Includes/Session.php"); ?>
 <?php

@@ -1,5 +1,5 @@
 <?php
-$DNS = 'mysql:host = localhost; dbname=lalit';
-$ConnectingDB= new PDO($DNS,'root','');
+$DNS = 'mysql:host=db; dbname=lalit';
+$ConnectingDB= new PDO($DNS,'root','mariadb');
 
 ?>

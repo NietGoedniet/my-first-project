@@ -9,8 +9,8 @@ if(isset($_POST["Submit"])){
   $KG          = $_POST["kg"];
   $Price       = $_POST["price"];
   $nDate       = date("Y-m-d",strtotime($DateBoeking));
-  $CurrentTime=time();
-  $DateTime=strftime("%B-%d-%Y %H:%M:%S",$CurrentTime);
+  $CurrentTime = time();
+  $DateTime    = strftime("%B-%d-%Y %H:%M:%S",$CurrentTime);
 
   if(($ProductName === "--Product Selection---")){
     $_SESSION["ErrorMessage"]= "Please enter a Product Name";

@@ -1,8 +1,8 @@
 <?php
 /* Database connection start */
-$servername = "localhost";
+$servername = "db";
 $username = "root";
-$password = "";
+$password = "mariadb";
 $dbname = "lalit";
 $conn = mysqli_connect($servername, $username, $password, $dbname) or die("Connection failed: " . mysqli_connect_error());
 if (mysqli_connect_errno()) {
